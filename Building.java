@@ -7,6 +7,7 @@ public class Building {
     protected int nFloors;
     protected int activeFloor = -1; // Default value indicating we are not inside this building
 
+
     /* Default constructor */
     public Building() {
         this("<Name Unknown>", "<Address Unknown>", 1);
